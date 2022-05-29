@@ -1,0 +1,12 @@
+Minha resolução sequencia logica para troca o pneu seria:
+1 - sinalizar a via
+2 - Pegar o macaco, a chave de roda e estepe
+3 - tirar os parafusos da roda furada
+4 - Colocar o macaco e erguer o carro
+5 - Tirar a roda furada 
+6 - colocar o estepe no lugar da roda furada
+7 - Descer o carro e tirar o macaco
+8 - Colocar os parafusos e parafusar o estepe
+9 - guardar os equipamentos e a roda furada
+10 - Tirar a sinalização da via 
+Continue a sua viagem! 

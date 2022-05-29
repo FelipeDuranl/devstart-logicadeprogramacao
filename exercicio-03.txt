@@ -1,0 +1,24 @@
+Algoritmo "Calculo IMC"
+// Descrição : Aqui você descreve o que o programa faz! (função)
+// Autor(a) : Felipe Duran Maciel
+// Data atual : 11/05/2022
+Var
+// Seção de Declarações das variáveis
+age: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreva("Qual a sua idade: ")
+leia(age)
+
+se (age < 18) entao
+escreva("Menor de idade")
+senao
+se (age >= 18)e(age < 60) entao
+escreva("Adulto")
+senao
+escreva("Idoso")
+fimse
+fimse
+
+Fimalgoritmo

@@ -1,0 +1,79 @@
+Algoritmo "semnome"
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Felipe Duran
+// Data atual  : 28/05/2022
+Var
+// Seção de Declarações das variáveis 
+
+   opcao: caracter
+   base, altura, lado, resultado: real
+   texto: caracter
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+   escreval("Qual area voce quer calcular: T(Tringulo), R(Retangulo), Q(Quadrado)")
+   leia(opcao)
+   escolha (opcao)
+           caso("T")
+                    escreva("Qual a base: ")
+                    leia(base)
+                    escreva("Qual a altura: ")
+                    leia(altura)
+                    resultado := (base*altura)/2
+           caso("R")
+                     escreva("Qual a base: ")
+                     leia(base)
+                     escreva("Qual a altura: ")
+                     leia(altura)
+                     resultado := base*altura
+           caso("Q")
+                     escreva("Qual o lado: ")
+                     leia(lado)
+                     resultado:= lado*lado
+           outrocaso
+
+                    resultado := -1547542148754848498548875515515
+   fimescolha
+   
+   ENQUANTO (resultado = -1547542148754848498548875515515) FACA
+            escreva("Opção invalidada, digite novamente")
+            escreval("Qual area voce quer calcular: T(Tringulo), R(Retangulo), Q(Quadrado)")
+            leia(opcao)
+            escolha (opcao)
+                    caso("T")
+                             escreva("Qual a base: ")
+                             leia(base)
+                             escreva("Qual a altura: ")
+                             leia(altura)
+                             resultado := (base*altura)/2
+                    caso("R")
+                              escreva("Qual a base: ")
+                              leia(base)
+                              escreva("Qual a altura: ")
+                              leia(altura)
+                              resultado := base*altura
+                    caso("Q")
+                              escreva("Qual o lado: ")
+                              leia(lado)
+                              resultado:= lado*lado
+                    outrocaso
+
+                             resultado := -1547542148754848498548875515515
+            fimescolha
+   FIMENQUANTO
+   
+   se (opcao = "T") entao
+            texto <- "Triangulo"
+   senao
+   se (opcao = "R") entao
+            texto <- "Retangulo"
+   senao
+        opcao <- "Quadrado"
+   fimse
+   fimse
+   
+   
+   ESCREVA("A area do ", texto, " = ", resultado)
+   
+Fimalgoritmo

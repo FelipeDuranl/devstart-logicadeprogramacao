@@ -1,0 +1,44 @@
+Algoritmo "Calculo IMC"
+// Descrição : Aqui você descreve o que o programa faz! (função)
+// Autor(a) : Felipe Duran Maciel
+// Data atual : 11/05/2022
+Var
+// Seção de Declarações das variáveis
+name: caractere
+imc, alt, pes: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+escreva("Qual seu nome: ")
+leia(name)
+
+escreva("Qual sua altura: ")
+leia(alt)
+
+escreva("Qual seu peso: ")
+leia(pes)
+
+imc <- pes/(alt*alt)
+
+se (imc <19) entao
+escreva(name, ", você está abaixo do peso!")
+senao
+se (imc >=19)e(imc<25) entao
+escreva(name, ", você está no peso normal!")
+senao
+se(imc>=25)e(imc<30)entao
+escreva(name, ", voce está com sobrepeso")
+senao
+se(imc>=30)e(imc<40)entao
+escreva(name, ", voce está com obesidade tipo I")
+senao
+escreva(name, ", voce está com obesidade tipo II")
+fimse
+fimse
+fimse
+fimse
+
+escreva(imc)
+
+Fimalgoritmo

@@ -1,0 +1,31 @@
+Algoritmo "semnome"
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Felipe Duran
+// Data atual  : 28/05/2022
+Var
+// Seção de Declarações das variáveis 
+
+   j,i, num1, num2, result1, result2: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   escreva("primeiro numero: ")
+   leia(num1)
+   escreva("Segundo numero: ")
+   leia(num2)
+   escreval("Numeros multiplos por ",num1)
+   para j de 1 ate 100 faca
+          result1 <- j%num1
+          se(result1=0)entao
+             escreval(j)
+          fimse
+   fimpara
+   escreva("------------------------------------------------------------------")
+   escreval("Numeros multiplos por ",num2)
+   para i de 1 ate 100 faca
+          result2 <- i%num2
+          se(result2=0)entao
+             escreval(i)
+          fimse
+   fimpara
+Fimalgoritmo

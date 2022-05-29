@@ -1,0 +1,42 @@
+Algoritmo "semnome"
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Felipe Duran
+// Data atual  : 28/05/2022
+Var
+// Seção de Declarações das variáveis 
+
+   j: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   
+   para j de 0 ate 100 passo j+2 faca
+          escreval(j)
+   fimpara
+
+   
+Fimalgoritmo
+
+----------------------OUTRA FORMA-------------------------------
+
+Algoritmo "semnome"
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Felipe Duran
+// Data atual  : 28/05/2022
+Var
+// Seção de Declarações das variáveis 
+
+   j,result: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   
+   para j de 1 ate 100 faca
+          result <- j%2
+          se(result=0)entao
+             escreval(j)
+          fimse
+   fimpara
+
+   
+Fimalgoritmo

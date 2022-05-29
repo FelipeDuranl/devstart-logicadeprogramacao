@@ -1,0 +1,42 @@
+Algoritmo ""
+// Disciplina : [Linguagem e Lógica de Programação]
+// Professor : Antonio Carlos Nicolodi
+// Descrição : Aqui você descreve o que o programa faz! (função)
+// Autor(a) : Felipe Duran Maciel
+// Data atual : 11/05/2022
+Var
+// Seção de Declarações das variáveis
+opum: inteiro
+valsaque, valdeposito, saldoconta, saldo: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreva("Digite Seu saldo: ")
+leia(saldo)
+
+escreval("O que deseja fazer: Deposito - 1 || Saque - 2: ")
+leia(opum)
+
+ENQUANTO ((opum <> 1) e (opum <> 2)) FACA
+escreva("opcao invalida!")
+escreval("O que deseja fazer: Deposito - 1 || Saque - 2: ")
+leia(opum)
+fimenquanto
+
+se (opum = 1) entao
+escreva("Qual o seu deposito: ")
+leia(valdeposito)
+
+saldoconta <- valdeposito+saldo
+
+senao
+escreva("Qual o seu saque: ")
+leia(valsaque)
+
+saldoconta <- saldo - valsaque
+fimse
+
+
+escreva("Seu saldo da conta é: ", saldoconta)
+
+Fimalgoritmo
