@@ -1,0 +1,50 @@
+Algoritmo "felipe"
+// Disciplina : [Linguagem e Lógica de Programação]
+// Professor : Antonio Carlos Nicolodi
+// Descrição : Aqui você descreve o que o programa faz! (função)
+// Autor(a) : Felipe Duran Maciel
+// Data atual : 11/05/2022
+Var
+// Seção de Declarações das variáveis
+nome, nomeLogin: caracter
+senhaUser, senhaLogin,opcao : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+escreva("Qual é seu nome: ")
+leia(nome)
+
+escreva("Qual a sua senha: ")
+leia(senhaUser)
+
+escreval("------------------------------------------")
+
+escreval("Certo, agora vamos para o login")
+
+escreva("Qual é seu nome: ")
+leia(nomelogin)
+
+escreva("Qual a sua senha: ")
+leia(senhaLogin)
+
+repita
+         escreval("Senha ou usuario invaldo, digite novamente")
+
+         escreva("Qual é seu nome: ")
+         leia(nomelogin)
+
+         escreva("Qual a sua senha: ")
+         leia(senhaLogin)
+         
+         se senhaLogin = -1 entao
+           escreval("Saiu")
+           interrompa
+
+         fimse
+
+
+ate ((nome=nomeLogin)e(senhaUser=senhaLogin))
+    escreva("Bem vindo ", nomeLogin)
+
+Fimalgoritmo

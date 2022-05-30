@@ -1,0 +1,25 @@
+Algoritmo "felipe"
+// Disciplina : [Linguagem e Lógica de Programação]
+// Professor : Antonio Carlos Nicolodi
+// Descrição : Aqui você descreve o que o programa faz! (função)
+// Autor(a) : Felipe Duran Maciel
+// Data atual : 11/05/2022
+Var
+// Seção de Declarações das variáveis
+j, result, opnum: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+   escreva("Qual tabuada voce deseja fazer: ")
+   leia(opnum)
+   
+   enquanto (j <= 10) faca
+            result <- j * opnum
+            escreval(opnum, " x ", j, " = ", result)
+            
+            j <- j+1
+            
+
+   fimenquanto
+
+Fimalgoritmo

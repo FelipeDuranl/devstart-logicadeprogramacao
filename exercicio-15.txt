@@ -1,0 +1,42 @@
+Algoritmo "felipe"
+// Disciplina : [Linguagem e Lógica de Programação]
+// Professor : Antonio Carlos Nicolodi
+// Descrição : Aqui você descreve o que o programa faz! (função)
+// Autor(a) : Felipe Duran Maciel
+// Data atual : 11/05/2022
+Var
+// Seção de Declarações das variáveis
+qntPessoas, idade, menos18, mais60, entre, j: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+escreva("Quantas pessoas são: ")
+leia(qntPessoas)
+j <- 1
+repita
+      escreva("Qual a idade da ",j,"ª pessoa? ")
+      leia(idade)
+      
+      se idade = -99 entao
+           escreval("Saiu")
+           interrompa
+      senao
+      se idade < 18 entao
+         menos18 <- menos18+1
+      senao
+      se idade > 60 entao
+         mais60 <- mais60+1
+      senao
+           entre <- entre+1
+      fimse
+      fimse
+      fimse
+      escreval(j, " - Pessoa: idade - ",idade)
+      escreval("----------------------------------------------------------")
+      escreval("")
+      j <- j+1
+ate j > qntPessoas
+    escreval("Quantidade de pessoas menor de 18 é ", menos18,"| Mais de 60 é ", mais60, "| E entre 18 e 60 são ", entre,".")
+
+Fimalgoritmo

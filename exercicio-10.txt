@@ -1,0 +1,49 @@
+Algoritmo "felipe"
+// Disciplina : [Linguagem e Lógica de Programação]
+// Professor : Antonio Carlos Nicolodi
+// Descrição : Aqui você descreve o que o programa faz! (função)
+// Autor(a) : Felipe Duran Maciel
+// Data atual : 11/05/2022
+Var
+// Seção de Declarações das variáveis
+opum, vezes, j: inteiro
+valsaque, valdeposito, saldoconta, saldo: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval("Quantas operações deseja fazer: ")
+leia(vezes)
+
+escreva("Digite Seu saldo: ")
+leia(saldo)
+
+para  j de 1 ate vezes faca
+
+   escreval("O que deseja fazer: Deposito - 1 || Saque - 2: ")
+   leia(opum)
+
+   ENQUANTO ((opum <> 1) e (opum <> 2)) FACA
+   escreva("opcao invalida!")
+   escreval("O que deseja fazer: Deposito - 1 || Saque - 2: ")
+   leia(opum)
+   fimenquanto
+
+   se (opum = 1) entao
+   escreval("Qual o seu deposito: ")
+   leia(valdeposito)
+
+   saldoconta <- valdeposito+saldo
+
+   senao
+   escreval("Qual o seu saque: ")
+   leia(valsaque)
+
+   saldoconta <- saldo - valsaque
+   fimse
+
+
+   escreval("Seu saldo da conta é: ", saldoconta)
+fimpara
+escreval("saldo igual a: ", saldoconta)
+
+Fimalgoritmo

@@ -1,0 +1,32 @@
+Algoritmo "felipe"
+// Disciplina : [Linguagem e Lógica de Programação]
+// Professor : Antonio Carlos Nicolodi
+// Descrição : Aqui você descreve o que o programa faz! (função)
+// Autor(a) : Felipe Duran Maciel
+// Data atual : 11/05/2022
+Var
+// Seção de Declarações das variáveis
+saldo, saque, j, i: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+j <- 0
+i <- 0
+saldo <- 1000
+   repita
+         escreva("Qual o valor do saque: ")
+         leia(saque)
+         j <- j+1
+         se saldo < saque entao
+            j <- j+1
+            escreval("Saldo insuficiente")
+            interrompa
+         senao
+         fimse
+              i <- i+1
+              saldo <- saldo - saque
+              escreval("Saldo, ",saldo)
+              escreval("")
+   ate j>i
+       escreva("Acabouse saldo: ", saldo)
+Fimalgoritmo

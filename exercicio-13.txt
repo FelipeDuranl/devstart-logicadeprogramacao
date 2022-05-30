@@ -1,0 +1,70 @@
+Algoritmo "felipe"
+// Disciplina : [Linguagem e Lógica de Programação]
+// Professor : Antonio Carlos Nicolodi
+// Descrição : Aqui você descreve o que o programa faz! (função)
+// Autor(a) : Felipe Duran Maciel
+// Data atual : 11/05/2022
+Var
+// Seção de Declarações das variáveis
+opnum: inteiro
+resultado, numum, numdois: real
+opcao: caracter
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   opnum <- 0
+
+   enquanto (opnum <> 1) faca
+         escreva("Qual o primeiro numero:")
+         leia(numum)
+         escreva("qual o segundo numero:")
+         leia(numdois)
+         escreval("Digite +(Soma), -(Subtração), *(Multiplicação), /(Divisão)")
+         leia(opcao)
+         escolha opcao
+                 caso("+")
+                          resultado := numum + numdois
+                 caso("-")
+                          resultado := numum - numdois
+                 caso("*")
+                          resultado := numum * numdois
+                 caso("/")
+                          resultado := numum / numdois
+                 outrocaso
+                          resultado := -1547542148754848498548875515515
+         fimescolha
+
+         ENQUANTO (resultado = -1547542148754848498548875515515) FACA
+
+            ESCREVAL("Opecação invalida, digite novamente")
+
+            escreva("Qual o primeiro numero:")
+            leia(numum)
+            escreva("qual o segundo numero:")
+            leia(numdois)
+            escreval("Digite +(Soma), -(Subtração), *(Multiplicação), /(Divisão)")
+            leia(opcao)
+            escolha opcao
+                    caso("+")
+                             resultado := numum + numdois
+                    caso("-")
+                             resultado := numum - numdois
+                    caso("*")
+                             resultado := numum * numdois
+                    caso("/")
+                             resultado := numum / numdois
+                    outrocaso
+                             resultado := -1547542148754848498548875515515
+            fimescolha
+
+            fimenquanto
+            escreval(resultado)
+            
+            escreva("deseja continuar as operações ? 1- NÃO, 2- SIM : ")
+            leia(opnum)
+fimenquanto
+
+
+
+
+Fimalgoritmo
