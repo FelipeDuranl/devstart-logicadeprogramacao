@@ -1,0 +1,33 @@
+Algoritmo "felipe"
+// Disciplina : [Linguagem e Lógica de Programação]
+// Professor : Antonio Carlos Nicolodi
+// Descrição : Aqui você descreve o que o programa faz! (função)
+// Autor(a) : Felipe Duran Maciel
+// Data atual : 11/05/2022
+Var
+// Seção de Declarações das variáveis
+matrizQuadL: vetor[1..73] de real
+matrizQuadC: vetor[1..73] de  real
+soma, soma1 : real
+c, l : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+   para l<-1 ate 73 faca
+        para c<-1 ate 73 faca
+             soma1<- l*c
+             se l = c entao
+                soma<- l+c
+             senao
+             se (soma1 = soma) entao
+                soma1 <- soma1-1
+             senao
+             fimse
+             fimse
+        fimpara
+   fimpara
+   escreval(soma)
+   escreval(soma1)
+
+Fimalgoritmo

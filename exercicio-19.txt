@@ -1,0 +1,38 @@
+Algoritmo "felipe"
+// Disciplina : [Linguagem e Lógica de Programação]
+// Professor : Antonio Carlos Nicolodi
+// Descrição : Aqui você descreve o que o programa faz! (função)
+// Autor(a) : Felipe Duran Maciel
+// Data atual : 11/05/2022
+Var
+// Seção de Declarações das variáveis
+nomeAluno: caracter
+notas: vetor[1..2] de real
+media: real
+i: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+   para i<-1 ate 2 faca
+   
+        escreva("Qual a ",i,"ª nota: ")
+        leia(notas[i])
+   fimpara
+   media <- (notas[1] + notas[2])/2
+   
+   para i<-1 ate 2 faca
+        escreval("A ", i,"ª nota: ", notas[i])
+   fimpara
+   escreval("A media é: ",media)
+   se (media < 5) entao
+      escreva("Repovado")
+   senao
+   se (media > 5)entao
+      escreva("Aprovado")
+   senao
+        escreva("Recuperação")
+   fimse
+   fimse
+
+Fimalgoritmo

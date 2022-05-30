@@ -1,0 +1,71 @@
+Algoritmo "felipe"
+// Disciplina : [Linguagem e Lógica de Programação]
+// Professor : Antonio Carlos Nicolodi
+// Descrição : Aqui você descreve o que o programa faz! (função)
+// Autor(a) : Felipe Duran Maciel
+// Data atual : 11/05/2022
+Var
+// Seção de Declarações das variáveis
+
+dados: vetor[1..5] de caracter
+i: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+   para i<-1 ate 5 faca
+   
+      se(i = 1) entao
+            escreva("Qual o seu nome: ")
+            leia(dados[i])
+      senao
+      se(i = 2) entao
+            escreva("Qual o seu CPF: ")
+            leia(dados[i])
+      senao
+      se(i = 3) entao
+            escreva("Qual o seu RG: ")
+            leia(dados[i])
+      senao
+      se(i = 4) entao
+            escreva("Qual o seu Endereço: ")
+            leia(dados[i])
+      senao
+      se(i = 5) entao
+            escreva("Qual o seu Telefone: ")
+            leia(dados[i])
+      senao
+      fimse
+      fimse
+      fimse
+      fimse
+      fimse
+      
+   fimpara
+   
+   escreva("==================================================================")
+
+   para i<-1 ate 5 faca
+      se(i = 1) entao
+               escreval("Nome: ", dados[i])
+         senao
+         se(i = 2) entao
+               escreval("CPF: ", dados[i])
+         senao
+         se(i = 3) entao
+               escreval("RG: ", dados[i])
+         senao
+         se(i = 4) entao
+               escreval("Endereço: ", dados[i])
+         senao
+         se(i = 5) entao
+               escreval("Telefone: ", dados[i])
+         senao
+         fimse
+         fimse
+         fimse
+         fimse
+         fimse
+   fimpara
+
+Fimalgoritmo

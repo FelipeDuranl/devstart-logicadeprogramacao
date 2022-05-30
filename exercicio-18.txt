@@ -1,0 +1,28 @@
+Algoritmo "felipe"
+// Disciplina : [Linguagem e Lógica de Programação]
+// Professor : Antonio Carlos Nicolodi
+// Descrição : Aqui você descreve o que o programa faz! (função)
+// Autor(a) : Felipe Duran Maciel
+// Data atual : 11/05/2022
+Var
+// Seção de Declarações das variáveis
+nomeProduto : vetor[1..10] de caracter
+precoProduto: vetor[1..10] de real
+i: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+   para i<-1 ate 5 faca
+        escreva("Qual o nome do ",i,"º produto: ")
+        leia(nomeProduto[i])
+        escreva("Qual o preco do ",i,"º produto: ")
+        leia(precoProduto[i])
+        
+   fimpara
+   para i<-1 ate 5 faca
+        escreval(nomeProduto[i],": R$", precoProduto[i])
+   fimpara
+
+
+Fimalgoritmo
